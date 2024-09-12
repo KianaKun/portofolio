@@ -16,8 +16,11 @@ export default function Skill() {
     ];
 
     return (
-        <div className="flex flex-row justify-center mt-10">
-            <div className="flex flex-row bg-card mx-auto rounded-lg p-3 relative">
+        <div className="flex flex-col justify-center mt-10">
+            <div className="mx-auto">
+                <h2>Tech Stack</h2>
+            </div>
+            <div className="flex flex-row bg-gradient-to-tl from-navbar1 to-navbar mx-auto rounded-lg p-3 relative transition ease-in-out delay-300">
                 {skills.map(skill => (
                     <div
                         key={skill.name}
@@ -34,7 +37,7 @@ export default function Skill() {
                         />
                         {/* Floating Card muncul saat dihover */}
                         {hoveredSkill === skill.name && (
-                            <div className="absolute top-[-120%] left-0 bg-white text-black p-3 rounded-lg shadow-lg w-52 z-10 bg-opacity-50">
+                            <div className="absolute top-[-180%] left-0 bg-white text-black p-3 rounded-lg shadow-lg w-52 z-10 bg-opacity-80">
                                 <p><strong>{skill.name}</strong>: {skill.description}</p>
                             </div>
                         )}

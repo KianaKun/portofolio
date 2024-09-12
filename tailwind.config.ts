@@ -14,7 +14,8 @@ const config: Config = {
         navbar: "#161D6F",
         body: "#0B2F9F",
         card: "#98DED9",
-        text: "#C7FFD8"
+        text: "#C7FFD8",
+        navbar1: "#4C51BF"
       },
     },
   },

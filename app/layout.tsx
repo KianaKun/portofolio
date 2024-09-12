@@ -14,8 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+      </head>
       <body
-        className={`antialiased bg-body text-text`}
+        className={`antialiased bg-gradient-to-br from-body to-cyan-500 text-white`}
       >
         {children}
       </body>
