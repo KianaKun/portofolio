@@ -1,7 +1,7 @@
 export default function Portofolio(){
     return(
-        <main className="">
+        <div className="">
 
-        </main>
+        </div>
     )
 }

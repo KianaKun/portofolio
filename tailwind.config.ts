@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navbar: "#161D6F",
+        body: "#0B2F9F",
+        card: "#98DED9",
+        text: "#C7FFD8"
       },
     },
   },

@@ -1,7 +1,7 @@
 export default function Experience(){
     return(
-        <main className="">
+        <div className="">
             
-        </main>
+        </div>
     )
 }
