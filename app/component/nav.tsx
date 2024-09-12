@@ -3,10 +3,13 @@ import Image from "next/image"
 
 export default function Nav(){
     return(
+        
         <nav className="flex flex-row items-center justify-between p-3 bg-navbar sticky top-0">
+            {/*Header Profile*/}
             <div className="text-text ml-5">
                 <p>Profile</p>
             </div>
+            {/*Header Image Social Media*/}
             <div className="flex flex-row text-red-500 gap-3">
                 <Link className="p-1 hover:bg-card rounded-md transition ease-in-out delay-100" href={'https://facebook.com/yournameyea'}>
                     <Image src={'/image/facebook.svg'} height={50} width={50} alt="facebook"/>

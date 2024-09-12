@@ -34,7 +34,7 @@ export default function Skill() {
                         />
                         {/* Floating Card muncul saat dihover */}
                         {hoveredSkill === skill.name && (
-                            <div className="absolute top-[-120%] left-0 bg-white text-black p-3 rounded-lg shadow-lg w-52 z-10">
+                            <div className="absolute top-[-120%] left-0 bg-white text-black p-3 rounded-lg shadow-lg w-52 z-10 bg-opacity-50">
                                 <p><strong>{skill.name}</strong>: {skill.description}</p>
                             </div>
                         )}
