@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Header(){
     return(
-        <header className="flex flex-row my-7 mx-5 gap-4">
+        <header className="flex flex-row mt-7 mb-72 mx-5 gap-4">
             <div className="">
                 <Image className="rounded-md transition ease-in-out delay-200" src={'/image/profile.jpg'} width={300} height={300} alt="profile"/>
             </div>

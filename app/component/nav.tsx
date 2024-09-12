@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Nav(){
     return(
-        <nav className="flex flex-row items-center justify-between p-3 bg-navbar">
+        <nav className="flex flex-row items-center justify-between p-3 bg-navbar sticky top-0">
             <div className="text-text ml-5">
                 <p>Profile</p>
             </div>
