@@ -7,7 +7,6 @@ import Portofolio from "./portofolio"
 export default function Main(){
     return(
         <main>
-            <Header/>
             <Skill/>
             <Experience/>
             <Portofolio/>
